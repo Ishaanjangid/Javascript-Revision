@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project 01</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body class="bg-black text-white grid place-content-center h-screen">
+    <div>
+      <div
+        class="bg-white text-black max-w-sm p-6 rounded-2xl flex flex-col space-y-10"
+      >
+        <!-- name -->
+        <div class="flex flex-col space-y-1">
+          <label for="name">Name:</label>
+          <input
+            class="border-[1px] rounded-sm"
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter Name"
+          />
+        </div>
+
+        <!-- Age -->
+        <div class="flex flex-col space-y-1">
+          <label for="age">Age:</label>
+          <input
+            class="border-[1px] rounded-sm"
+            type="text"
+            name="age"
+            id="age"
+            placeholder="Enter age"
+          />
+        </div>
+
+        <!-- Button -->
+        <div
+          class="flex flex-col space-y-1 bg-gray-400 p-2 border-[1px] text-white rounded-sm"
+        >
+          <input id="button" type="button" value="Button" />
+        </div>
+
+        <!-- Answer Box -->
+        <div class="flex flex-col space-y-1 border-[1px] bg-gray-300">
+          <p id="answerBox"></p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="project01_Script.js"></script>
+</html>
